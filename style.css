@@ -12,19 +12,32 @@ body{
     margin-bottom: 20px;
     position: static;
 }
-h1{
+h1, h2, dl{
     
     padding: 20px;
     background-color: rgb(100, 61, 1);
     border: #000;
+		 overflow-y: none;
     
 }
 p{
     margin-left: 20px;
     margin-right: 40px;
+		
+		min-height:350px
+		
     
 }
 hr{
     color:#000;
     border: 2px solid black;
+}
+
+.img{
+	height:200px;
+              
+}
+li{
+	list-style: none;
+	margin-left: 20px;
 }
